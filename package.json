@@ -37,7 +37,7 @@
     "android"
   ],
   "repository": "https://www.npmjs.com/package/react-native-cupertino-chart",
-  "author": "Ibytek <nathanguigui13390@gmail.com> (https://www.npmjs.com/package/react-native-cupertino-chart)",
+  "author": "Ibytek (https://www.npmjs.com/package/react-native-cupertino-chart)",
   "license": "MIT",
   "bugs": {
     "url": "https://www.npmjs.com/package/react-native-cupertino-chart/issues"
@@ -143,5 +143,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-gesture-handler": "^2.2.0",
+    "react-native-svg": "^12.1.1"
   }
 }

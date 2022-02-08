@@ -2,20 +2,34 @@
 
 React Native Cupertino Chart
 
+![](demo.gif)
+
 ## Installation
 
 ```sh
-npm install react-native-cupertino-chart
+yarn add react-native-cupertino-chart
 ```
+
+## Dependencies
+- React Native Gesture Handler
+- React Native Svg
 
 ## Usage
 
 ```js
-import { multiply } from "react-native-cupertino-chart";
+import Chart from "react-native-cupertino-chart";
 
 // ...
 
-const result = await multiply(3, 7);
+const App = () => {
+    return (
+        <Chart
+          data={[{x: "01/02/2022", y: 5000}]}
+          width={Dimensions.get("window").width}
+          height={250}
+        />
+    )
+}
 ```
 
 ## Contributing
